@@ -1,7 +1,8 @@
 # GOD_stimuli_annotations
 
 ## Summary
-This repository shares the caption annotations of the 1200 training stimulus images used in the following KamitaniLab represetative papers. 
+This repository shares the caption annotations of the 1200 training stimulus images used in the following KamitaniLab representative papers. 
+
 
 1. Horikawa, T., & Kamitani, Y. (2017). Generic decoding of seen and imagined objects using hierarchical visual features. Nature Communications, 8, 15037. https://doi.org/10.1038/ncomms15037
     - Github: [KamitaniLab/GenericObjectDecoding](https://github.com/KamitaniLab/GenericObjectDecoding)
@@ -10,7 +11,8 @@ This repository shares the caption annotations of the 1200 training stimulus ima
 3. Horikawa, T., & Kamitani, Y. (2022). Attention modulates neural representation to render reconstructions according to subjective appearance. Communications Biology, 5(1), 34. https://doi.org/10.1038/s42003-021-02975-5
     - Github: [KamitaniLab/End2EndDeepImageReconstruction](https://github.com/KamitaniLab/End2EndDeepImageReconstruction)
 
-Caption data and category information are stored in *.jsonl. Please see [example.ipynb](example.ipynb) for detailed data usage.
+
+Caption data and category information are stored in `*.jsonl` file. Please see [example.ipynb](example.ipynb) for detailed data usage.
 
 ```python
 df = pd.read_json("data/ImageNetTraining_captions.jsonl", orient="records", lines=True)
@@ -33,15 +35,17 @@ display(df)
 ```
 
 
-## Collection method for caption data
-The caption data was collected in 2018 using Amazon Mechanical Turk (AMT), a crowdsourcing service. We use the following two worker filtering when collecting captions.
-1. Masters has been granted.
-2. HIT Approval Rate (%) for all Requesters' HITs greater than 95.
+## Collection method for captions
+The caption data was collected in 2018 using Amazon Mechanical Turk (AMT), a major crowdsourcing service. Workers have been filtered by the following two conditions;
+1. Workers are granted "Masters".
+2. Workers have HIT Approval Rate greater than 95% for all Requesters' HITs.
+For further detail on the filtering conditions, please refer to [here](https://www.mturk.com/worker/help).
+
 
 ## About test image captions
-As mentioned above, the annotation data for test images is not publicly available. This is to prevent the data from being crawled. If you wish to be shared the test image captions, please contact us separately via email (kaminitalab@gmail.com). Please ensure not to place the shared captions in public locations.
+The captions for test stimulus images are not publicly available to prevent data crawling. If you wish to be shared the test image captions, please contact us via email (kamitanilab@gmail.com). 
 
 
 ## About the sharing of fMRI data and stimulus image data
-The stimulus image itself cannot be shared due to copyright problems. If you would like to need the data, so please contact us from [here](https://forms.gle/ujvA34948Xg49jdn9).
-fMRI data is open to the public on figshare, etc. Please see the github repository of the above representative paper for details.
+The stimulus images cannot be shared due to copyright problems. If you need the images, please contact us from [here](https://forms.gle/ujvA34948Xg49jdn9).
+fMRI data is open to the public on Figshare, etc. Please see the GitHub repository of the above representative papers for details.
