@@ -1,13 +1,17 @@
-# GOD_stimuli_annotations
+# Annotations for GOD stimulus images
 
 ## Summary
-This repository shares the caption annotations of the 1200 training stimulus images used in the following KamitaniLab representative papers. 
+This repository shares the caption annotations of the 1200 GOD training stimulus images used in the following Kamitani lab's representative papers. 
 
 
 1. Horikawa, T., & Kamitani, Y. (2017). Generic decoding of seen and imagined objects using hierarchical visual features. Nature Communications, 8, 15037. https://doi.org/10.1038/ncomms15037
     - Github: [KamitaniLab/GenericObjectDecoding](https://github.com/KamitaniLab/GenericObjectDecoding)
 2. Shen, G., Horikawa, T., Majima, K., & Kamitani, Y. (2019). Deep image reconstruction from human brain activity. PLOS Computational Biology, 15(1), 1006633. https://doi.org/10.1371/journal.pcbi.1006633
     - Github: [KamitaniLab/DeepImageReconstruction](https://github.com/KamitaniLab/DeepImageReconstruction)
+3. Horikawa, T., & Kamitani, Y. (2022). Attention modulates neural representation to render reconstructions according to subjective appearance. Communications Biology, 5(1), 34. https://doi.org/10.1038/s42003-021-02975-5
+    - Figshare: [Attentionally modulated subjective images reconstructed from brain activity](https://figshare.com/articles/dataset/Attentionally_modulated_subjective_images_reconstructed_from_brain_activity/13474629)
+4. Cheng, F., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y. (2023). Reconstructing visual illusory experiences from human brain activity (p. 2023.06.15.545037). bioRxiv. https://doi.org/10.1101/2023.06.15.545037
+
 
 
 Caption data and category information are stored in `*.jsonl` file. Please see [example.ipynb](example.ipynb) for detailed data usage.
