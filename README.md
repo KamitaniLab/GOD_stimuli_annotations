@@ -8,8 +8,6 @@ This repository shares the caption annotations of the 1200 training stimulus ima
     - Github: [KamitaniLab/GenericObjectDecoding](https://github.com/KamitaniLab/GenericObjectDecoding)
 2. Shen, G., Horikawa, T., Majima, K., & Kamitani, Y. (2019). Deep image reconstruction from human brain activity. PLOS Computational Biology, 15(1), 1006633. https://doi.org/10.1371/journal.pcbi.1006633
     - Github: [KamitaniLab/DeepImageReconstruction](https://github.com/KamitaniLab/DeepImageReconstruction)
-3. Horikawa, T., & Kamitani, Y. (2022). Attention modulates neural representation to render reconstructions according to subjective appearance. Communications Biology, 5(1), 34. https://doi.org/10.1038/s42003-021-02975-5
-    - Github: [KamitaniLab/End2EndDeepImageReconstruction](https://github.com/KamitaniLab/End2EndDeepImageReconstruction)
 
 
 Caption data and category information are stored in `*.jsonl` file. Please see [example.ipynb](example.ipynb) for detailed data usage.
